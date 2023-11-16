@@ -2,7 +2,7 @@ const corsOptions = {
   origin: (origin, callback) => {
     const allowedOrigins = [
       "http://localhost:3000",
-      "https://cbi-kanban-app.vercel.app/",
+      "https://cbi-kanban-app.vercel.app",
     ];
     console.log("origin ->", origin);
     if (allowedOrigins.includes(origin) || !origin) {
